@@ -23,7 +23,7 @@ function extractMatchDetails(html) {
     let date = stringArr[2].trim();
 
     // console.log(result);
-
+    // 
     let innings = $(".card.content-block.match-scorecard-table>.Collapsible");
 
     for (let i = 0; i < innings.length; i++) {
